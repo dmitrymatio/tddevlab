@@ -4,5 +4,5 @@ function filter(inputArr, searchTerm) {
         return word.url.toLowerCase().includes(searchTerm.toLowerCase())
     });
 }
-
+console.log('cool beans');
 module.exports = filter
